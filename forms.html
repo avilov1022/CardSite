@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>дегенератское название</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix">
+            <a id="logo" href="index.html"><span class="pink">Сайт</span> <i>визитка</i></a>
+            <nav id="mainnav">
+                <ul">
+                    <li><a href="service.html">Услуги</a></li>
+                    <li><a href="AboutUs.html">О нас</a></li>
+                    <li><a href="Contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form id="contact-form" action="">
+                <div class="form_item">
+                    <label for="topic">Тема</label>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказ</option>
+                        <option value="2">Отзыв</option>
+                        <option value="3">Сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="name">Имя<br></label>
+                    <input type="text" placeholder="Ну имя типа" required>
+                </div>
+                <div class="form_item">
+                    <label for="LastName">email<br></label>
+                    <input type="email" placeholder="ну мыло свое типа" required>
+                </div>
+                <div class="form_item">
+                    <label for="textarea">Текст<br></label>
+                    <textarea name="textarea" id="area" cols="30" rows="10" placeholder="ну текст" required></textarea>
+                </div>
+                <div class="form_item">
+                    <label for="OK"></label>
+                    <input type="submit">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <a class="footer_block" href="forms.html">Написать нам&#9650;</a>
+        <p class="footer_block">&copy; Новая компания</p>
+        <div class="footer_icons">
+            <a target="_blank" href="https://www.instagram.com/"><img class="footer_img" src="img/instagram.png" alt="inst"></a>
+            <a target="_blank" href="https://vk.com/"><img class="footer_img" src="img/vk-social-logotype.png" alt="vk"></a>
+            <a target="_blank" href="https://ru-ru.facebook.com/"><img class="footer_img" src="img/facebook.png" alt="facebook"> </a>
+        </div>
+    </footer>
+</body>
+</html>
